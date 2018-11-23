@@ -282,7 +282,7 @@ long S_solpos (struct posdata *pdat)
   if ( pdat->function & L_TILT )    /* tilt calculations */
     tilt( pdat );
 
-    return 0;
+  return 0;
 }
 
 
